@@ -1,0 +1,60 @@
+/* This is where we will be writing all of your styles */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400,900&display=swap');
+
+body{
+  background-color: #F2F6F6;
+  color: black;
+  font-family: "Playfair Display", sans-serif;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Open Sans Condensed", sans-serif;
+  border: 4px solid ffffff;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+h2, p{
+  text-align: center;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#firstList{
+background-color: gray;
+color: black;
+text-align: center;
+}
+
+#firstList li {
+  display: inline-block;
+  margin: 15px;
+}
+
+li:hover{
+  background-color: red;
+}
+
+.mammals{
+  color: white;
+  font-weight: bold;
+}
+
+.birds{
+  color: white;
+  font-style: italic;
+}
+
+.fish{
+  color: white;
+  text-decoration: none;
+}
+img{
+  display: block;
+  width: 500px;
+  margin: 40px auto;
+}
